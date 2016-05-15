@@ -181,6 +181,9 @@ iframe {
   font-size: 14px;
 }
 /* About Section */
+.about .fa {
+  color: #63d0d8;
+}
 /* Latest Section */
 .latest .item {
   margin-bottom: 30px;
