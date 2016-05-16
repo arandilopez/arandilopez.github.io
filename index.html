@@ -62,31 +62,31 @@
   <header class="header">
     <div class="container">
         <div class="row">
-  <div class="col-md-8">
+  <div class="col-md-8 col-sm-12">
     <img class="profile-image img-responsive pull-left" src="http://www.gravatar.com/avatar/3d952ca670e67bf1fdcd515caae14629?s=200" alt="Arandi L&oacute;pez" />
     <div class="profile-content pull-left">
       <h1 class="name">Arandi L&oacute;pez</h1>
       <h2 class="desc">Full Stack Software Engineer</h2>
-      <ul class="social list-inline">
+      <ul class="social list-inline no-print">
         <li><a href="https://twitter.com/arandilopez"><i class="fa fa-twitter"></i></a></li>
         <li><a href="https://github.com/arandilopez"><i class="fa fa-github-alt"></i></a></li>
         <li><a href="https://mx.linkedin.com/in/arandilopez"><i class="fa fa-linkedin"></i></a></li>
-              </ul>
+      </ul>
     </div><!--//profile-->
   </div>
-  <div class="col-md-4">
-    <h4 class="available text-center">
+  <div class="col-md-4 col-sm-12 text-center no-print">
+    <h4 class="available">
       <i class="fa fa-check"></i>
       I'M AVAILABLE FOR FREELANCE PROJECT!!
     </h4>
     <a class="btn btn-cta-primary" href="mailto:arandilopez.93@gmail.com" target="_blank">
       <i class="fa fa-hand-spock-o"></i>
-            Contact me
+      Contact me
     </a>
-    <a class="btn btn-cta-primary" href="/ArandiLopez.pdf" target="_blank">
-      <i class="fa fa-download"></i>
-      Get my resume
-    </a>
+    <button class="btn btn-cta-primary" onclick="print()">
+      <i class="fa fa-print"></i>
+      Print this
+    </button>
   </div>
 </div>
     </div><!--//container-->
@@ -167,7 +167,8 @@
           </div><!--//content-->
   </div><!--//section-inner-->
 </section><!--//section-->
-            <section class="github section">
+            <div class="no-print">
+      <section class="github section">
     <div class="section-inner">
         <h2 class="heading">My GitHub</h2>
         
@@ -181,6 +182,7 @@
 
     </div><!--//secton-inner-->
 </section><!--//section-->
+    </div>
 </div><!--//primary-->
   <div class="secondary col-md-4 col-sm-12 col-xs-12">
   <aside class="info aside section">
@@ -299,6 +301,7 @@
     </div><!--//content-->
   </div><!--//section-inner-->
 </aside><!--//section-->
+    <div class="no-print">
     <aside class="list music aside section">
   <div class="section-inner">
     <h2 class="heading">Favourite coding music</h2>
@@ -314,7 +317,7 @@
     </div><!--//content-->
   </div><!--//section-inner-->
 </aside><!--//section-->
-  <aside class="credits aside section">
+    <aside class="credits aside section">
   <div class="section-inner">
     <h2 class="heading">Credits</h2>
     <div class="content">
@@ -326,12 +329,13 @@
     </div><!--//content-->
   </div><!--//section-inner-->
 </aside><!--//section-->
+  </div>
   </div><!--//secondary-->
     </div><!--//row-->
   </div><!--//masonry-->
 
   <!-- ******FOOTER****** -->
-  <footer class="footer">
+  <footer class="footer no-print">
     <div class="container text-center">
       <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
       <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>

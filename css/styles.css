@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.5
  * Author: Xiaoying Riley
@@ -536,6 +536,41 @@ iframe {
 @media (min-width: 1400px) {
   .container {
     width: 1360px;
+  }
+}
+@media print {
+  .no-print {
+    display: none;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  .section {
+    margin-bottom: 0.2cm;
+  }
+  .skills .skillset .item {
+    margin-bottom: inherit;
+  }
+  .skills .skillset .level-title {
+    font-size: 16px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10;
+  }
+  .skills .skillset .level-title .level-label {
+    color: #ccd1d6;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Lato", arial, sans-serif;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .skills .skillset .level-bar {
+    display: none;
+  }
+  .skills .skillset .level-bar-inner {
+    display: none;
   }
 }
 
