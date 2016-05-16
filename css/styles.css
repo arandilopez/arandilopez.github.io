@@ -142,7 +142,7 @@ iframe {
   margin-bottom: 15px;
 }
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #63d0d8;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -152,7 +152,7 @@ iframe {
   text-align: center;
 }
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: #2ba2aa;
 }
 .header .profile-content .social a .fa {
   font-size: 20px;
