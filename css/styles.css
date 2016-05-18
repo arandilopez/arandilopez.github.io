@@ -539,27 +539,45 @@ iframe {
   }
 }
 @media print {
-  .no-print {
-    display: none;
+  h2 .heading {
+    margin-bottom: 15px;
+  }
+  .container {
+    width: auto;
   }
   a[href]:after {
     content: none !important;
   }
+  .sections-wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .section {
-    margin-bottom: 0.2cm;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+  }
+  .section .section-inner {
+    padding: 10px;
+  }
+  .section .heading {
+    margin-bottom: 5px;
+  }
+  .experience .item {
+    margin-bottom: 10px;
   }
   .skills .skillset .item {
-    margin-bottom: inherit;
+    margin-bottom: 10px;
   }
   .skills .skillset .level-title {
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     margin-top: 0;
     margin-bottom: 10;
   }
   .skills .skillset .level-title .level-label {
     color: #ccd1d6;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
     font-family: "Lato", arial, sans-serif;
     position: absolute;
@@ -571,6 +589,43 @@ iframe {
   }
   .skills .skillset .level-bar-inner {
     display: none;
+  }
+  .education .item {
+    margin-bottom: 10px;
+  }
+  .education .item:last-child {
+    margin-bottom: 0;
+  }
+  .education .item .title {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .education .item .university {
+    font-family: "Lato", arial, sans-serif;
+    font-size: 11px;
+    color: #999;
+    font-weight: 600;
+    padding-left: 25px;
+  }
+  .education .item .university .year {
+    color: #b0b7bf;
+    font-weight: 500;
+  }
+  /* Language Section */
+  .languages .item {
+    margin-bottom: 10px;
+  }
+  .languages .item .title {
+    color: #778492;
+  }
+  .languages .item .level {
+    color: #999;
+  }
+  .languages .item:last-child {
+    margin-bottom: 0;
+  }
+  .languages .item .fa {
+    color: #63d0d8;
   }
 }
 

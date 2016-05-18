@@ -61,20 +61,20 @@
   <!-- ******HEADER****** -->
   <header class="header">
     <div class="container">
-        <div class="row">
+        <div class="row hidden-print">
   <div class="col-md-8 col-sm-12">
     <img class="profile-image img-responsive pull-left" src="http://www.gravatar.com/avatar/3d952ca670e67bf1fdcd515caae14629?s=200" alt="Arandi L&oacute;pez" />
     <div class="profile-content pull-left">
       <h1 class="name">Arandi L&oacute;pez</h1>
       <h2 class="desc">Full Stack Software Engineer</h2>
-      <ul class="social list-inline no-print">
+      <ul class="social list-inline">
         <li><a href="https://twitter.com/arandilopez"><i class="fa fa-twitter"></i></a></li>
         <li><a href="https://github.com/arandilopez"><i class="fa fa-github-alt"></i></a></li>
         <li><a href="https://mx.linkedin.com/in/arandilopez"><i class="fa fa-linkedin"></i></a></li>
       </ul>
     </div><!--//profile-->
   </div>
-  <div class="col-md-4 col-sm-12 text-center no-print">
+  <div class="col-md-4 col-sm-12 text-center">
     <h4 class="available">
       <i class="fa fa-check"></i>
       I'M AVAILABLE FOR FREELANCE PROJECT!!
@@ -89,6 +89,45 @@
     </button>
   </div>
 </div>
+<div class="visible-print-block">
+  <div class="row">
+  <div class="col-md-8 col-sm-8 col-xs-7">
+    <img class="profile-image img-responsive pull-left" src="http://www.gravatar.com/avatar/3d952ca670e67bf1fdcd515caae14629?s=100" alt="Arandi L&oacute;pez" />
+    <div class="profile-content pull-right">
+      <h1 class="name">Arandi L&oacute;pez</h1>
+      <h2 class="desc">Full Stack Software Engineer</h2>
+    </div><!--//profile-->
+  </div>
+  <div class="col-md-4 col-sm-4 col-xs-5">
+    <h2 class="heading sr-only">Basic Information</h2>
+<div class="content text-left">
+  <ul class="list-unstyled">
+    <li>
+      <i class="fa fa-map-marker"></i>
+      <span class="sr-only">Location:</span>
+      Mérida, Yucatán MEX
+    </li>
+    <li><i class="fa fa-birthday-cake"></i>
+      <span class="sr-only">Birthday:</span>
+      April 15, 1993
+    </li>
+    <li><i class="fa fa-envelope-o"></i>
+      <span class="sr-only">Email:</span>
+      <a href="mailto:arandilopez.93@gmail.com">arandilopez.93@gmail.com</a>
+    </li>
+    <li><i class="fa fa-whatsapp"></i>
+      <span class="sr-only">Phone:</span>
+      <a href="tel:+52 1999-150-6228">+52 1999-150-6228</a>
+    </li>
+    <li><i class="fa fa-link"></i>
+      <span class="sr-only">Website:</span>
+      <a href="http://arandilopez.me">http://arandilopez.me</a>
+    </li>
+  </ul>
+</div><!--//content-->
+  </div>
+</div>
+</div>
     </div><!--//container-->
   </header><!--//header-->
 
@@ -101,40 +140,50 @@
     <div class="content">
       <p>
         Software Engineer, Web Artisan &amp; Metalhead
-        <h4>Interest</h4>
-        <ul class="fa-ul">
-          <li><i class="fa fa-li fa-check"></i> Web Development using different technologies and patterns.</li>
-          <li><i class="fa fa-li fa-check"></i> Mobile Computing Android/iOS.</li>
-          <li><i class="fa fa-li fa-check"></i> Contribute on Open Source Software Projects</li>
-          <li><i class="fa fa-li fa-check"></i> Software Process Improvement.</li>
-          <li><i class="fa fa-li fa-check"></i> Software Construction.</li>
-        </ul>
-        <h4>I want to learn</h4>
-        <ul class="fa-ul">
-          <li><i class="fa fa-li fa-check"></i> Ruby on Rails Framework.</li>
-          <li><i class="fa fa-li fa-check"></i> NodeJS &amp; SocketIO.</li>
-          <li><i class="fa fa-li fa-check"></i> iOS &amp; Swift Development.</li>
-        </ul>
       </p>
-      <h3>Objetive</h3>
       <p>
+        <h3>Objetive</h3>
         Obtain Masters and/or PhD in the area of Software Engineering and Computer Science.
         Being an active contributor to open source projects that help improve the development of
         systems and the creation of new businesses.
       </p>
-      <h3>What I do?</h3>
       <p>
-        <div class="row">
-          <div class="col-md-6">
-            <ul class="fa-ul">
-              <li><i class="fa fa-li fa-check"></i> Laravel 5 + Angular JS Web Development</li>
-              <li><i class="fa fa-li fa-check"></i> Ionic Mobile Development</li>
-              <li><i class="fa fa-li fa-check"></i> Mobile Android Native SDK</li>
-              <li><i class="fa fa-li fa-check"></i> Project Management</li>
+        <div class="">
+          <h4>Interest</h4>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-check"></i> Web Development using different technologies and patterns.</li>
+            <li><i class="fa fa-check"></i> Mobile Computing Android/iOS.</li>
+            <li><i class="fa fa-check"></i> Contribute on Open Source Software Projects</li>
+            <li><i class="fa fa-check"></i> Software Process Improvement.</li>
+            <li><i class="fa fa-check"></i> Software Construction.</li>
+          </ul>
+        </div>
+        <div class="hidden-print">
+          <h4>I want to learn</h4>
+          <ul class="list-unstyled">
+            <li><i class="fa fa-check"></i> Ruby on Rails Framework.</li>
+            <li><i class="fa fa-check"></i> NodeJS &amp; SocketIO.</li>
+            <li><i class="fa fa-check"></i> iOS &amp; Swift Development.</li>
+          </ul>
+        </div>
+      </p>
+      <div class="hidden-print">
+        <p>
+          <h3>What I do?</h3>
+          <div class="row">
+            <ul class="list-unstyled">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <li><i class="fa fa-check"></i> Laravel 5 + Angular JS Web Development</li>
+                <li><i class="fa fa-check"></i> Ionic Mobile Development</li>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <li><i class="fa fa-check"></i> Mobile Android Native SDK</li>
+                <li><i class="fa fa-check"></i> Project Management</li>
+              </div>
             </ul>
           </div>
-                  </div>
-      </p>
+        </p>
+      </div>
     </div><!--//content-->
   </div><!--//section-inner-->
 </section><!--//section-->
@@ -167,8 +216,7 @@
           </div><!--//content-->
   </div><!--//section-inner-->
 </section><!--//section-->
-            <div class="no-print">
-      <section class="github section">
+            <section class="github section hidden-print">
     <div class="section-inner">
         <h2 class="heading">My GitHub</h2>
         
@@ -182,103 +230,111 @@
 
     </div><!--//secton-inner-->
 </section><!--//section-->
-    </div>
 </div><!--//primary-->
   <div class="secondary col-md-4 col-sm-12 col-xs-12">
-  <aside class="info aside section">
+  <aside class="info aside section hidden-print">
   <div class="section-inner">
     <h2 class="heading sr-only">Basic Information</h2>
-    <div class="content">
-      <ul class="list-unstyled">
-        <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Mérida, Yucatán MEX</li>
-        <li><i class="fa fa-birthday-cake"></i><span class="sr-only">Birthday:</span>April 15, 1993</li>
-        <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:arandilopez.93@gmail.com">arandilopez.93@gmail.com</a></li>
-        <li><i class="fa fa-whatsapp"></i><span class="sr-only">Phone:</span><a href="tel:+52 1999-150-6228">+52 1999-150-6228</a></li>
-        <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="http://arandilopez.me">http://arandilopez.me</a></li>
-      </ul>
-    </div><!--//content-->
+<div class="content text-left">
+  <ul class="list-unstyled">
+    <li>
+      <i class="fa fa-map-marker"></i>
+      <span class="sr-only">Location:</span>
+      Mérida, Yucatán MEX
+    </li>
+    <li><i class="fa fa-birthday-cake"></i>
+      <span class="sr-only">Birthday:</span>
+      April 15, 1993
+    </li>
+    <li><i class="fa fa-envelope-o"></i>
+      <span class="sr-only">Email:</span>
+      <a href="mailto:arandilopez.93@gmail.com">arandilopez.93@gmail.com</a>
+    </li>
+    <li><i class="fa fa-whatsapp"></i>
+      <span class="sr-only">Phone:</span>
+      <a href="tel:+52 1999-150-6228">+52 1999-150-6228</a>
+    </li>
+    <li><i class="fa fa-link"></i>
+      <span class="sr-only">Website:</span>
+      <a href="http://arandilopez.me">http://arandilopez.me</a>
+    </li>
+  </ul>
+</div><!--//content-->
   </div><!--//section-inner-->
 </aside><!--//aside-->
   <aside class="skills aside section">
   <div class="section-inner">
     <h2 class="heading">Skills</h2>
     <div class="content">
-      <p class="intro">
-
-        <div class="skillset">
-          <div class="item">
-            <h3 class="level-title">Laravel 5 &amp; PHP 5<span class="level-label">Expert</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="96%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-
-          <div class="item">
-            <h3 class="level-title">Angular JS<span class="level-label">Expert</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="94%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-
-
-          <div class="item">
-            <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Pro</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="80%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-
-          <div class="item">
-            <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label">Pro</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="75%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-
-          <div class="item">
-            <h3 class="level-title">Ionic<span class="level-label">Expert</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="90%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-
-          <div class="item">
-            <h3 class="level-title">Android Native SDK<span class="level-label">Mid</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="60%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-
-          <div class="item">
-            <h3 class="level-title">Java<span class="level-label">Pro</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="80%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-          <div class="item">
-            <h3 class="level-title">Spring, Hibernate<span class="level-label">Mid</span></h3>
-            <div class="level-bar">
-              <div class="level-bar-inner" data-level="50%">
-              </div>
-            </div><!--//level-bar-->
-          </div><!--//item-->
-                  </div>
-      </div><!--//content-->
-    </div><!--//section-inner-->
-  </aside><!--//section-->
+      <div class="skillset">
+        <div class="item">
+          <h3 class="level-title">Laravel 5 &amp; PHP 5<span class="level-label">Expert</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="96%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">Angular JS<span class="level-label">Expert</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="94%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Pro</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="80%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label">Pro</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="75%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">Ionic<span class="level-label">Expert</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="90%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">Android Native SDK<span class="level-label">Mid</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="60%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">Java<span class="level-label">Pro</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="80%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+        <div class="item">
+          <h3 class="level-title">Spring, Hibernate<span class="level-label">Mid</span></h3>
+          <div class="level-bar">
+            <div class="level-bar-inner" data-level="50%">
+            </div>
+          </div><!--//level-bar-->
+        </div><!--//item-->
+      </div>
+          </div><!--//content-->
+  </div><!--//section-inner-->
+</aside><!--//section-->
   <aside class="education aside section">
   <div class="section-inner">
     <h2 class="heading">Education</h2>
     <div class="content">
       <div class="item">
-        <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Software Engineering</h3>
+        <h3 class="title"><i class="fa fa-graduation-cap"></i>
+          Software Engineering
+        </h3>
         <h4 class="university">Yucatan Autonomous University <span class="year">(2011-2015)</span></h4>
       </div><!--//item-->
     </div><!--//content-->
@@ -312,7 +368,7 @@
     </div><!--//content-->
   </div><!--//section-inner-->
 </aside><!--//section-->
-    <div class="no-print">
+    <div class="hidden-print">
     <aside class="list music aside section">
   <div class="section-inner">
     <h2 class="heading">Favourite coding music</h2>
@@ -346,7 +402,7 @@
   </div><!--//masonry-->
 
   <!-- ******FOOTER****** -->
-  <footer class="footer no-print">
+  <footer class="footer hidden-print">
     <div class="container text-center">
       <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
       <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
