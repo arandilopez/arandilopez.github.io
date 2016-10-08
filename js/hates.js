@@ -6,6 +6,7 @@ $(document).ready(function () {
     var hates = snapshot.val();
     $('#java-counter').html(hates.java);
     $('#windows-counter').html(hates.windows);
+    $('#c-sharp-counter').html(hates.c_sharp);
 
   });
 
@@ -13,6 +14,6 @@ $(document).ready(function () {
     var hates = snapshot.val();
     $('#java-counter').html(hates.java);
     $('#windows-counter').html(hates.windows);
-
+    $('#c-sharp-counter').html(hates.c_sharp);
   });
 });
